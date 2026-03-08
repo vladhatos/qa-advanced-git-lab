@@ -1,10 +1,11 @@
 public class Calculator {
     // Constantă pentru bonus
-    private static final int BONUS = 2;
+    private static final int BONUS = 5;
  
     // Calculeaza suma a doua numere folosind constanta BONUS
     public int aduna(int a, int b) {
         return a + b + BONUS;
+          
     }
  
     public static void main(String[] args) {
